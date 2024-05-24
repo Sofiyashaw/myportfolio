@@ -7,7 +7,6 @@
    <title>Personal Portfolio Website</title>
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body>
     <div id="header">
@@ -21,10 +20,8 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa fa-times-circle" onclick="closemenu()"></i>
-
                 </ul>
                 <i class="fa fa-bars" onclick="openmenu()"></i>
-
             </nav>
             <div class="header-text">
                 <p class="data-analyst"> Data Analyst</p>
@@ -38,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                  <img src="images/porto.jpg" >
+                  <img src="images/porto.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
@@ -108,65 +105,114 @@
         </div>
     </div>
 
-   <!-- Services -->
-   <div id="services"> 
-    <div class="container">
-        <h1 class="sub-title">Certifications</h1>
-        <br>
-        <div class="services-list">
-            <div>
-                <i class="fab fa-searchengin"></i>
-                <h2>Basics of EDA with Python</h2>
-                <p>Mastered the fundamentals of Exploratory Data Analysis (EDA) using Python with Great Learning. Acquired essential skills for analyzing and visualizing data effectively, enabling informed decision-making.</p>
-                <a href="#">Learn more</a>
+    <!-- Services -->
+    <div id="services"> 
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <br>
+            <div class="services-list">
+                <div>
+                    <i class="fab fa-searchengin"></i>
+                    <h2>Basics of EDA with Python</h2>
+                    <p>Mastered the fundamentals of Exploratory Data Analysis (EDA) using Python with Great Learning. Acquired essential skills for analyzing and visualizing data effectively, enabling informed decision-making.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-laptop-code"></i>
+                    <h2>Machine Learning Projects</h2>
+                    <p>Mastered machine learning projects through Great Learning, gaining hands-on experience in applying algorithms to real-world data. Explored regression, classification, and clustering techniques to solve diverse problems. Developed expertise in data preprocessing, model building, and evaluation, enhancing proficiency in machine learning.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-rocketchat"></i>
+                    <h2>Exploring Chatbots</h2>
+                    <p>Exploring chatbots through Skillsoft, gaining insights into building conversational AI systems. Learning about natural language processing (NLP), dialogue management, and integration with platforms. Developing skills to create effective chatbot solutions for various applications and industries.</p>
+                    <a href="#">Learn more</a>
+                </div>
             </div>
-            <div>
-                <i class="fas fa-laptop-code"></i>
-                <h2>Machine Learning Projects</h2>
-                <p>Mastered machine learning projects through Great Learning, gaining hands-on experience in applying algorithms to real-world data. Explored regression, classification, and clustering techniques to solve diverse problems. Developed expertise in data preprocessing, model building, and evaluation, enhancing proficiency in machine learning.</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <i class="fab fa-rocketchat"></i>
-                <h2>Exploring Chatbots</h2>
-                <p>Exploring chatbots through Skillsoft, gaining insights into building conversational AI systems. Learning about natural language processing (NLP), dialogue management, and integration with platforms. Developing skills to create effective chatbot solutions for various applications and industries.</p>
-                <a href="#">Learn more</a>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-robot"></i>
+                    <h2>The Role of Chatgpt in Shaping Our Future</h2>
+                    <p> Explored ChatGPT's transformative potential in various sectors, including ethical implications and future trends. Acquired practical skills in deploying ChatGPT solutions and understanding its societal impact. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-cogs"></i>
+                    <h2>OOPS in Python</h2>
+                    <p>Explored object-oriented programming (OOP) principles in Python through concise code examples. Covered key concepts like classes, objects, inheritance, encapsulation, and polymorphism. Acquired practical skills in designing robust and modular Python applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-cloud"></i>
+                    <h2>Oracle Cloud Infrastructure</h2>
+                    <p>Demonstrates proficiency in deploying and managing applications on Oracle's cloud platform. Covers key concepts including compute, storage, networking, and security within OCI. Validates skills in utilizing OCI services for scalable and reliable cloud solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
             </div>
         </div>
     </div>
-   </div>
 
-   <!-- Portfolio -->
-   <div id="portfolio">
-    
-        <div class="container">
-            <br> <br> <br> 
-           <h1 class="sub-title">Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                   <img src="images/porty1.jpg">
-                   <div class="layer">
-                      <h3>Hospital management System</h3>
-                      <p>Developed a Hospital Management System from scratch using HTML, CSS, and PHP.</p>
-                      <a href="https://github.com/Sofiyashaw/WebApplication-MagesticHospitals"><i class="fas fa-link"></i></a>
-                   </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+    <div class="container">
+        <br> <br> <br> 
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/portyy1.jpg">
+                <div class="layer">
+                    <h3>Hospital management System</h3>
+                    <p>Developed a Hospital Management System from scratch using HTML, CSS, and PHP.</p>
+                    <a href="https://github.com/Sofiyashaw/WebApplication-MagesticHospitals"><i class="fas fa-link"></i></a>
                 </div>
-                <div class="work">
-                   <img src="images/porty2.jpg">
-                   <div class="layer">
+            </div>
+            <div class="work">
+                <img src="images/portyy2.jpg">
+                <div class="layer">
                     <h3>Loan Status Prediction</h3>
                     <p>The project focused on utilizing machine learning techniques for loan status prediction.</p>
                     <a href="https://github.com/Sofiyashaw/Projects--Machine-Learning/blob/main/Loan_Status_Prediction.ipynb"><i class="fas fa-link"></i></a>
-                 </div>
                 </div>
-                <div class="work">
-                   <img src="images/porty3.jpg">
-                   <div class="layer">
+            </div>
+            <div class="work">
+                <img src="images/portyy3.jpg">
+                <div class="layer">
                     <h3>House Price Prediction</h3>
                     <p>Leveraging data-driven insights, I developed a model to accurately forecast house prices based on various features and amenities.</p>
                     <a href="https://github.com/Sofiyashaw/Projects--Machine-Learning/blob/main/Property_Price_Prediction.ipynb"><i class="fas fa-link"></i></a>
-                 </div>
                 </div>
+            </div>
+        </div>
+        
+        <!-- New row for the new projects -->
+        <div class="work-list">
+            <div class="work">
+                <img src="images/porty4.jpg">
+                <div class="layer">
+                    <h3>Stay Alert Analysis</h3>
+                    <p>Utilizing data analytics to monitor and enhance safety measures for public spaces.</p>
+                    <a href="https://github.com/Sofiyashaw/Projects--Machine-Learning"> <i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/porty5.jpg">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <p>My portfolio project highlights personal accomplishments, skills, and experiences, demonstrating expertise in data analytics, ML, and software development.</p>
+                    <a href="https://github.com/Sofiyashaw/myportfolio"> <i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/porty6.jpg">
+                <div class="layer">
+                    <h3>Mobile Data</h3>
+                    <p>The mobile data project utilized K-Nearest Neighbors (KNN) algorithm to analyze usage patterns and optimize network performance for enhanced service.</p>
+                    <a href="https://github.com/Sofiyashaw/Projects--Machine-Learning"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+                <!-- End of New Projects -->
             </div>
         </div>
     </div>
@@ -182,7 +228,6 @@
                     <p><i class="fa fa-paper-plane"></i>acintasofiya0801@gmail.com</p>
                     <div class="social-icons">
                         <a href="https://www.linkedin.com/in/acinta-sofiya-66651723b"><i class="fab fa-linkedin"></i></a>
-                        
                         <a href="https://www.instagram.com/sofiyaaa_08?igsh=aGR0NzB0eWJwbGVw"><i class="fab fa-instagram"></i></a>
                         <a href="https://github.com/Sofiyashaw?tab=overview&from=2024-05-01&to=2024-05-14"><i class="fab fa-github"></i></a>
                     </div>
@@ -191,7 +236,7 @@
                 </div>
                 <div class="contact-right">
                     <br>
-                    <form method="post" action="submit_form.php">
+                    <form method="post" action="submit_form.php" id="contactForm">
                         <br> <br> <br>
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
@@ -204,12 +249,9 @@
                 </div>
             </div>
         </div>
-         <div class="copyright">
-           
+        <div class="copyright">
             <p>Copyright @ Sofiya . Made with <i class="fa fa-heart" aria-hidden="true"></i> by Easy Tutorials</p>
-
-         </div>
-        
+        </div>
     </div>
 
     <script>
@@ -219,19 +261,13 @@
         function opentab(tabname){
                for (tablink of tablinks){
                    tablink.classList.remove("active-link");
-
                }
                for (tabcontent of tabcontents){
                    tabcontent.classList.remove("active-tab");
-
                }
                event.currentTarget.classList.add("active-link");
-
                document.getElementById(tabname).classList.add("active-tab");
-
         }
-
-
     </script>
     <script>
         var sidemenu = document.getElementById("sidemenu");
@@ -247,41 +283,39 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("submitForm").addEventListener("click", function() {
-        // Get form data
-        var formData = new FormData(document.getElementById("contactForm"));
+            document.getElementById("contactForm").addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent default form submission
+                
+                // Get form data
+                var formData = new FormData(document.getElementById("contactForm"));
 
-        // Send form data asynchronously
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "submit_form.php", true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-                // Handle response
-                var response = JSON.parse(xhr.responseText);
-                if (response.success) {
-                    // Display success message
-                    document.getElementById("responseMessage").innerHTML = "Message sent successfully!";
-                    // Reset the form immediately
-                    resetForm();
-                } else {
-                    // Display error message
-                    document.getElementById("responseMessage").innerHTML = "Error: " + response.message;
-                }
+                // Send form data asynchronously
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "submit_form.php", true);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        // Handle response
+                        var response = JSON.parse(xhr.responseText);
+                        if (response.success) {
+                            // Display success message
+                            document.getElementById("responseMessage").innerHTML = "Message sent successfully!";
+                            // Reset the form immediately
+                            resetForm();
+                        } else {
+                            // Display error message
+                            document.getElementById("responseMessage").innerHTML = "Error: " + response.message;
+                        }
+                    }
+                };
+                xhr.send(formData);
+            });
+
+            // Function to reset the form
+            function resetForm() {
+                document.getElementById("contactForm").reset();
             }
-        };
-        xhr.send(formData);
-    });
-
-    // Function to reset the form
-    function resetForm() {
-        document.getElementById("contactForm").reset();
-    }
-});
-
-
-
-</script>
-   
-
+        });
+    </script>
 </body>
 </html>
+
